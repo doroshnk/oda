@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto+Slab:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/main.css">
+  <title>ODA!</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
+        aria-controls="offcanvasMenu">
+        <i class="icon-burger-menu"></i>
+      </button>
+      <a class="navbar-brand d-none d-lg-block" href="#"><img src="/img/logo.png" alt=""
+          class="d-inline-block align-text-top"></a>
+      <a class="navbar-brand d-lg-none" href="#"><img src="/img/logo-short.png" alt=""
+          class="d-inline-block align-text-top"></a>
+      <a class="d-none d-md-block d-lg-none fs-3 text-decoration-none" href="#">
+        <i class="icon-search-big"></i>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Free trial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Solution</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDemo" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Demo
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownDemo">
+              <li><a class="dropdown-item" href="#">Downloads</a></li>
+              <li><a class="dropdown-item" href="#">Cloud Viewer</a></li>
+              <li><a class="dropdown-item" href="#">Web Conventer</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link language" href="#">EN</i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="icon-search fw-bold"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="icon-user"><span class="path1"></span><span
+                  class="path2"></span></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasMenu">
+        <div class=" container offcanvas-header text-start">
+          <button type="button" class="btn text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i
+              class="icon-burger-close"></i></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="list-group list-group-flush border-top border-bottom">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Free trial</a>
+            <a class="list-group-item list-group-item-action collapsed" data-bs-toggle="collapse"
+              href="#collapseProductsItem" role="button">Products<i class="icon-arrow-down"></i><i
+                class="icon-arrow-up"></i></a>
+            <div class="collapse sub-menu" id="collapseProductsItem">
+              <a href="#" class="list-group-item list-group-item-action">Item</a>
+            </div>
+            <a href="#" class="list-group-item list-group-item-action">Solution</a>
+            <a class="list-group-item list-group-item-action collapsed" data-bs-toggle="collapse"
+              href="#collapseDemoItem" role="button">Demo<i class="icon-arrow-down"></i><i
+                class="icon-arrow-up"></i></a>
+            <div class="collapse sub-menu" id="collapseDemoItem">
+              <a href="#" class="list-group-item list-group-item-action">Downloads</a>
+              <a href="#" class="list-group-item list-group-item-action">Cloud Viewer</a>
+              <a href="#" class="list-group-item list-group-item-action">Web Conventer</a>
+            </div>
+            <a href="#" class="list-group-item list-group-item-action">Pricing</a>
+            <a href="#" class="list-group-item list-group-item-action">Account</a>
+            <a href="#" class="list-group-item list-group-item-action">Community</a>
+            <a class="list-group-item list-group-item-action collapsed" data-bs-toggle="collapse"
+              href="#collapseCommunityItem" role="button">Community<i class="icon-arrow-down"></i><i
+                class="icon-arrow-up"></i></a>
+            <div class="collapse sub-menu" id="collapseCommunityItem">
+              <a href="#" class="list-group-item list-group-item-action">Item</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="companies text-center text-white">
+    <button type="button" class="btn text-capitalize live-demo-btn d-none d-lg-block">Live demo</button>
+    <div class="container-lg pt-5">
+      <div class="row">
+        <div class="col">
+          <div class="fw-bold fs-2 roboto-text shadow-text">
+            The Equalizer for CAD Development
+          </div>
+          <div class="fs-5 semi-bold-text">
+            Premium SDKs for the professional CAD developer
+          </div>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col offset-lg-1 col-lg-10 offset-xl-2 col-xl-8 d-flex align-items-center p-0">
+          <div class="w-100 me-3 border-top border-white d-inline"></div>
+          <div class="text-nowrap">Trusted by</div>
+          <div class="w-100 ms-3 border-top border-white d-inline"></div>
+        </div>
+      </div>
+
+      <div class="row gy-3 my-1 d-lg-none">
+        <div class="col-sm-4 col-md-4 d-none d-sm-block">
+          <img src="/img/d-system.png" alt="">
+        </div>
+        <div class="col-sm-4 col-md-4">
+          <img src="/img/siemens.png" alt="">
+        </div>
+        <div class="col-sm-4 col-md-4 d-none d-sm-block">
+          <img src="/img/hexagon.png" alt="">
+        </div>
+        <div class="col-sm-4 col-md-4 d-none d-sm-block">
+          <img src="/img/onshape.png" alt="">
+        </div>
+        <div class="col-sm-4 col-md-4 d-none d-sm-block">
+        </div>
+        <div class="col-sm-4 col-md-4">
+          <img src="/img/bentley.png" alt="">
+        </div>
+      </div>
+
+      <div class="row py-5 d-none d-lg-block">
+        <div
+          class="col offset-lg-1 col-lg-10 offset-xl-2 col-xl-8 d-flex justify-content-between align-items-center p-0">
+          <img src="/img/bentley.png" alt="">
+          <img src="/img/d-system.png" alt="">
+          <img src="/img/siemens.png" alt="">
+          <img src="/img/hexagon.png" alt="">
+          <img src="/img/onshape.png" alt="">
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col">
+          <div class="semi-bold-text">
+            What is ODA
+          </div>
+          <div class="semi-bold-text pt-2">
+            <img src="/img/video.svg" alt="video">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <h1 class="fw-bold roboto-text">The Equalizer for CAD Development</h1>
+    <h4>Premium SDKs for the professional CAD developer</h4> -->
+  </section>
+  <section class="dev-sofware-section text-center">
+
+    <div class="container-md pt-5">
+      <div class="row fs-5 py-5 roboto-text fw-bold">
+        <div class="col">
+          <div class="d-inline-block" style="max-width: 400px;">Leveling the playing field for engineering application
+            development</div>
+        </div>
+      </div>
+
+      <div class="row d-none d-sm-block d-lg-none">
+        <disv class="col">
+
+          <div id="devSofwareCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active d-flex justify-content-center">
+
+                <div class="card dwg border-0 w-50">
+                  <div class="card-img-top">
+                    <svg width="23" height="28" viewBox="0 0 23 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M21.7143 7.49964L14.8098 1H1V27H21.7143V7.49964Z"
+                        stroke="#FF5722" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M21.7143 8H14.4643V2" stroke="#FF5722" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title roboto-text fw-bold">.dwg Toolset</h5>
+                    <p class="card-text fw-light mx-4">Integrate .dwg support into any application or build your own
+                      .dwg-based
+                      visualization or authoring tools.</p>
+                    <a href="#" class="btn btn-link text-decoration-none">Discover .dwg Toolset</a>
+                  </div>
+                </div>
+
+              </div>
+              <div class="carousel-item d-flex justify-content-center">
+
+                <div class="card bim border-0 w-50">
+                  <div class="card-img-top">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M26.5014 7.36827V20.0169L13.8535 26.3412L1.20483 20.0169V7.36827L13.8535 1.04395L26.5014 7.36827Z"
+                        stroke="#FF5722" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M1.20483 7.36823L13.8535 13.6925L26.5014 7.36823" stroke="#FF5722" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M13.8535 13.6926V26.3412" stroke="#FF5722" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                      <path d="M7.52917 4.20605L20.1778 10.5304" stroke="#FF5722" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title roboto-text fw-bold">BIM Suite</h5>
+                    <p class="card-text fw-light mx-4">Interoperability toolkits for Autodesk® Revit® files, Autodesk®
+                      Navisworks®
+                      files,
+                      IFC, and more.</p>
+                    <a href="#" class="btn btn-link text-decoration-none">Discover BIM Suite</a>
+                  </div>
+                </div>
+
+              </div>
+              <div class="carousel-item d-flex justify-content-center">
+
+                <div class="card stack border-0 w-50">
+                  <div class="card-img-top">
+                    <svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M22.8413 13.9549C22.8413 19.8345 18.0746 24.6011 12.1943 24.6011C6.31465 24.6011 1.54871 19.8345 1.54871 13.9549C1.54871 8.07526 6.31465 3.30859 12.1943 3.30859C18.0746 3.30859 22.8413 8.07526 22.8413 13.9549Z"
+                        stroke="#FF5722" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M6.47693 15.3838H12.194L6.47693 26.8194L17.9126 12.5252H12.194" stroke="#FF5722"
+                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M12.194 12.5252L17.9126 1.09027L6.47693 15.3838" stroke="#FF5722" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title roboto-text fw-bold">Technology Stack</h5>
+                    <p class="card-text fw-light mx-4">Sophisticated components for visualization, web development,
+                      publishing,
+                      modeling,
+                      and more.</p>
+                    <a href="#" class="btn btn-link text-decoration-none">Discover Technology Stack</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#devSofwareCarousel"
+              data-bs-slide="prev">
+              <svg width="23" height="27" viewBox="0 0 23 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 13.5L21 25V2L0 13.5Z" stroke="#DADBE7"
+                  stroke-opacity="0.689385" stroke-width="4" stroke-linejoin="round" />
+              </svg>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#devSofwareCarousel"
+              data-bs-slide="next">
+              <svg width="23" height="27" viewBox="0 0 23 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M23 13.5L2 25V2L23 13.5Z" stroke="#DADBE7"
+                  stroke-opacity="0.689385" stroke-width="4" stroke-linejoin="round" />
+              </svg>
+
+            </button>
+          </div>
+
+        </disv>
+      </div>
+
+
+      <div class="row gx-3 d-sm-none d-md-none d-lg-flex">
+        <div class="col-12 col-md-4 py-5">
+
+          <div class="card dwg border-0">
+            <div class="card-img-top">
+              <svg width="23" height="28" viewBox="0 0 23 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.7143 7.49964L14.8098 1H1V27H21.7143V7.49964Z"
+                  stroke="#FF5722" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M21.7143 8H14.4643V2" stroke="#FF5722" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title roboto-text fw-bold">.dwg Toolset</h5>
+              <p class="card-text fw-light mx-4">Integrate .dwg support into any application or build your own
+                .dwg-based
+                visualization or authoring tools.</p>
+              <a href="#" class="btn btn-link text-decoration-none">Discover .dwg Toolset</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-4 py-5">
+
+          <div class="card bim border-0">
+            <div class="card-img-top">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M26.5014 7.36827V20.0169L13.8535 26.3412L1.20483 20.0169V7.36827L13.8535 1.04395L26.5014 7.36827Z"
+                  stroke="#FF5722" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M1.20483 7.36823L13.8535 13.6925L26.5014 7.36823" stroke="#FF5722" stroke-width="1.5"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M13.8535 13.6926V26.3412" stroke="#FF5722" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M7.52917 4.20605L20.1778 10.5304" stroke="#FF5722" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title roboto-text fw-bold">BIM Suite</h5>
+              <p class="card-text fw-light mx-4">Interoperability toolkits for Autodesk® Revit® files, Autodesk®
+                Navisworks®
+                files,
+                IFC, and more.</p>
+              <a href="#" class="btn btn-link text-decoration-none">Discover BIM Suite</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-4 py-5">
+
+          <div class="card stack border-0">
+            <div class="card-img-top">
+              <svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M22.8413 13.9549C22.8413 19.8345 18.0746 24.6011 12.1943 24.6011C6.31465 24.6011 1.54871 19.8345 1.54871 13.9549C1.54871 8.07526 6.31465 3.30859 12.1943 3.30859C18.0746 3.30859 22.8413 8.07526 22.8413 13.9549Z"
+                  stroke="#FF5722" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M6.47693 15.3838H12.194L6.47693 26.8194L17.9126 12.5252H12.194" stroke="#FF5722"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12.194 12.5252L17.9126 1.09027L6.47693 15.3838" stroke="#FF5722" stroke-width="1.5"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title roboto-text fw-bold">Technology Stack</h5>
+              <p class="card-text fw-light mx-4">Sophisticated components for visualization, web development,
+                publishing,
+                modeling,
+                and more.</p>
+              <a href="#" class="btn btn-link text-decoration-none">Discover Technology Stack</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <section class="dev-con-section text-center text-lg-start">
+
+    <div class="container-md">
+      <div class="row py-5">
+        <div class="col-xl-4 col-lg-4 col-md-12 pb-5 py-lg-5">
+          <div class="dev-con-box">
+            <div class="header">
+              ODA DevCon 2019
+            </div>
+            <div>
+              Milan, Italy, September 10-11th
+            </div>
+          </div>
+          <div class="bim-cloud-box pt-5">
+            New Opportunities with BIM&nbsp;+&nbsp;Cloud
+          </div>
+          <div class="site-link d-none d-lg-block pt-5">
+            For more information, please visit <a href="#" class="text-decoration-none">conference.opendesign.com.</a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-8 col-md-10 offset-md-1 offset-lg-0 description py-0 py-lg-5 text-md-start">
+          ODA is pleased to announce our 6th annual DevCon event, with a change in venue this year. Join us in Milan to
+          learn about the latest advancements in ODA technology, and consult with the ODA team.
+        </div>
+        <div class="col-12 d-lg-none">
+          <div class="site-link pt-5">
+            For more information, please visit <a href="#" class="text-decoration-none">conference.opendesign.com.</a>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <section class="about-section">
+    <div class="container-md py-5 semi-bold-text">
+      <div class="row">
+        <div class="col-md-12 col-lg-4 semi-bold-text text-center text-lg-start pt-lg-5">
+          Open Design Alliance is a non-profit technology consortium of 1200 member companies, working together to
+          develop solutions for complex enginering design problems. 
+        </div>
+
+        <div class="col-md-12 col-lg-8 pt-5">
+          <div class="row">
+            <div class="col-5 about-block offset-1">
+              <div class="title">Professional Development</div>
+              <div class="description fw-normal pt-3 pt-md-0">Team of more than 80 full-time engineers</div>
+            </div>
+            <div class="col-5 about-block offset-1">
+              <div class="title">Superior Business Model</div>
+              <div class="description fw-normal pt-3 pt-md-0">Non-profit with 80% of revenue to R&D</div>
+            </div>
+            <div class="col-5 about-block offset-1 mt-5">
+              <div class="title">Industry Cooperation and Oversight</div>
+              <div class="description fw-normal pt-3 pt-md-0">1200 member companies world-wide</div>
+            </div>
+            <div class="col-5 about-block offset-1 mt-5">
+              <div class="title">Transparent Pricing</div>
+              <div class="description fw-normal pt-3 pt-md-0">Published fee schedule & free tech support</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </section>
+  <!-- <div class="row text-dark">
+    <h1>
+      <span class=" d-xs-block d-sm-none">XS</span>
+      <span class="d-none d-sm-block d-md-none">SM</span>
+      <span class="d-none d-md-block d-lg-none">MD</span>
+      <span class="d-none d-lg-block d-xl-none">LG</span>
+      <span class="d-none d-xl-block d-xxl-none">XL</span>
+      <span class="d-none d-xxl-block ">XXL</span>
+    </h1>
+  </div> -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
